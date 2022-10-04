@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');
+.navbar-nav{
+    margin-left: auto!important;
+  
+  }
+
+.navbar{
+  background-image: url( '../images/background.svg' );
+  background-repeat: repeat space;
+  
+}
+
+
+  a.nav-link{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+  }
+
+
+
+
