@@ -33,4 +33,19 @@
 }
 
 
+@media (max-width: 767px){
+
+.hero-section{
+    margin-top: -2rem!important;
+}
+.myname{
+    font-size: 2.5rem;
+}
+.carousel-item{
+    margin-top: 3rem;
+   
+}
+
+}
+
 
