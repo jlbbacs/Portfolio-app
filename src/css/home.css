@@ -34,8 +34,11 @@
 .Typewriter__wrapper{
     background-color: #0B8CD5!important;
     padding: 1rem;
+   
 }
-
+.type{
+    margin-top: 1rem;
+}
 
 /* ===========Media Query============ */
 
