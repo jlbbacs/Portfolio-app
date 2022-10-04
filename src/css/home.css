@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Montserrat:wght@100&family=Poppins&family=Roboto+Slab&display=swap');@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Monoton&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Rubik+Glitch&family=Yesteryear&display=swap');
 
 .hero-section{
     margin-top: 5rem!important;
@@ -11,6 +11,10 @@
     margin-top: 5rem;
     font-weight: bold;
     font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: lowercase!important;
+    letter-spacing: 5px;
+ 
    
     
 }
@@ -25,15 +29,17 @@
 .myname{
     font-size: 3rem;
     color:#FD5E04;
+    font-family: 'Rubik Glitch', cursive;
+    font-weight:100!important;
     text-transform: uppercase;
-    font-weight: bolder;
-   
+  
+    
   
   
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 575px){
 
 .hero-section{
     margin-top: -2rem!important;
@@ -47,5 +53,8 @@
 }
 
 }
+
+
+
 
 
