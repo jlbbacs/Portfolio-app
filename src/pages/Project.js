@@ -41,7 +41,7 @@ return(
       <img src={Nolimit} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">No Limit</h5>
-        <p class="card-text">Fiteness website with e commerce.</p>
+        <p class="card-text">Fitness website with e commerce.</p>
       </div>
       <div class="card-footer">
         <small class="text-muted"></small>
