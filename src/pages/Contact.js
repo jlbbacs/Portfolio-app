@@ -4,6 +4,8 @@ import React, { useEffect } from 'react';
 import swal from 'sweetalert';
 import emailjs from '@emailjs/browser';
 import {useRef} from 'react';
+import Download from '../images/download.svg';
+import resumefile from "../images/resumefile.pdf";
 
 const Contact = () => {
     
@@ -41,7 +43,9 @@ return(
     <div class="container">
         <h1>Contact Me</h1>
     <div className="row">
-        <div className="col"></div>
+        <div className="col">
+            
+        </div>
         <div className="col-sm">
         <form ref={form} onSubmit={sendEmail}>
     <div class="mb-2">
@@ -95,9 +99,15 @@ return(
     <span class="badge bg-primary rounded-pill"></span>
   </li>
 </ol>
+            <a href={resumefile} download={resumefile}>
+         <img src={Download} className="download-image"/>
+           <strong>Download CV</strong>
+            </a>
+           </div>
         </div>
     </div>
-  </div>
+ 
+ 
 )
 }
 

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
 
 
-.list-group{
-    margin-top: 1rem;
-  
-}
 
+.download-image{
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+}
 
