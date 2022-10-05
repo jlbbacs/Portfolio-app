@@ -60,7 +60,7 @@ return(
 
     <div class="mb-2">
     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-    <textarea class="form-control" ref={kevin}  id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
+    <textarea class="form-control" ref={kevin}  id="Textarea" name="message" rows="3"></textarea>
     </div>
     <button type="submit" class="btn btn-dark mt-2">Submit</button>
 
