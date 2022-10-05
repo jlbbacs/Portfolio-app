@@ -17,6 +17,7 @@ function navbar() {
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
       <Link className="nav-link " to="/">Home</Link>
+      <Link className="nav-link" to="about">About</Link>
       <Link className="nav-link" to="/contact">Contact</Link>
       <Link className="nav-link" to="/project">Project</Link>
        

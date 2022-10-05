@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
+
+
+
+
+.card-title{
+    text-align: center;
+}
+
+
+.card-text-about{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8rem;
+    
+  
+}
+
+.aboutname{
+    text-transform: uppercase;
+    background-color:#0B8CD5;
+    border-radius: 50px;
+    padding: 1rem;
+}
+.skills-about{
+    background-color:#0B8CD5;
+    border-radius: 50px;
+    padding: 1rem; 
+
+}
+.about-list{
+    margin-top: 1rem;
+}
