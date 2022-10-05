@@ -64,7 +64,38 @@ return(
 
 
         </div>
-        <div className="col"></div>
+        <div className="col">
+        <ol class="list-group  ">
+    <li class="list-group-item d-flex justify-content-between align-items-start border-0 ">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Name</div>
+      Joseph Lester S. Bacsarsa
+    </div>
+    <span class="badge bg-primary rounded-pill"></span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Address</div>
+      Pasig City
+    </div>
+    <span class="badge bg-primary rounded-pill"></span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Email</div>
+      josephlesterbacs@gmail.com
+    </div>
+    <span class="badge bg-primary rounded-pill"></span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Contact number</div>
+    09614984118
+    </div>
+    <span class="badge bg-primary rounded-pill"></span>
+  </li>
+</ol>
+        </div>
     </div>
   </div>
 )
