@@ -7,7 +7,7 @@
 
 body{
   background-image: url( '../src/images/back.svg' );
-  background-repeat: round;
+  background-repeat:repeat-x;
   
 }
 

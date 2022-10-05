@@ -27,7 +27,6 @@ const App = ()=> {
         <Route path="/project" element={<Project/>} />
 
     </Routes>
-    <Footer/>
     </Router>
   
   )
