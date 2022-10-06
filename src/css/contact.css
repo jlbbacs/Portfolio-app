@@ -10,3 +10,7 @@
 #Textarea{
     min-height: 25vh;
 }
+.list-group-item  {
+    background-color: rgb(230, 240, 250)!important;
+    margin-top: 1rem;
+}

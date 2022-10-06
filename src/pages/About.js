@@ -25,11 +25,11 @@ const About = () => {
     </div>
     <div className="col-md-6">
       <div className="card-body">
-        <h5 className="card-title aboutname"data-aos="fade-left" data-aos-duration="1000">Joseph Lester Bacsarsa</h5>
+        <h5 className="card-title aboutname">Joseph Lester Bacsarsa</h5>
         <p className="card-text-about">You can call me Bax that's my nickname, and I am comfortable with it. 
          I'm an aspiring Front End Developer who loves to design websites and learn new directives.
          </p>
-         <h5 className="text-center skills-about" data-aos="fade-left" data-aos-duration="1000">SKILLS</h5>
+         <h5 className="text-center skills-about">SKILLS</h5>
             <ul className="about-list">
                 <li>HTML</li>
                 <li>CSS</li>
