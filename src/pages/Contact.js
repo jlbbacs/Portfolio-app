@@ -92,7 +92,7 @@ return(
   <li class="list-group-item d-flex justify-content-between align-items-start border-0">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Contact number</div>
-    09614984118
+    0961-4984-118
     </div>
     <span class="badge bg-primary rounded-pill"></span>
   </li>
