@@ -13,4 +13,9 @@
 .list-group-item  {
     background-color: rgb(230, 240, 250)!important;
     margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+.form-label{
+    font-family: 'Poppins', sans-serif;
 }

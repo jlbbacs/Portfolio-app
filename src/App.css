@@ -30,4 +30,17 @@ h1{
   outline: none;
   box-shadow: none;
 }
+.card-body{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.card-text{
+  text-align: center;
 
+}
+
+.card-title{
+  font-weight: bolder;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.2rem;
+}

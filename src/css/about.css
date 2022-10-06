@@ -23,6 +23,7 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color:white;
+    letter-spacing: 0.1rem;
   
 }
 .skills-about{
@@ -32,6 +33,7 @@
     font-family: 'Bebas Neue', cursive;
     color:white;
     font-size: 2em;
+    letter-spacing: 0.2rem;
 
 }
 .about-list{
