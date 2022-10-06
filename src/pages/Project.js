@@ -23,7 +23,7 @@ return(
        
         <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
-    <div class="card h-100 shadow-sm" data-aos="fade-right" data-aos-duration="2000">
+    <div class="card h-100 " data-aos="fade-right" data-aos-duration="2000">
       <img src={Kodekid} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kodekid</h5>
@@ -35,7 +35,7 @@ return(
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow-sm"  data-aos="flip-left"
+    <div class="card h-100 "  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
       <img src={Nolimit} class="card-img-top" alt="..."/>
@@ -49,7 +49,7 @@ return(
     </div>
   </div>
   <div class="col">
-    <div class="card h-100 shadow-sm" data-aos="fade-left" data-aos-duration="2000">
+    <div class="card h-100 " data-aos="fade-left" data-aos-duration="2000">
       <img src={Charmingpets} class="card-img-top" alt="..."/>
       <div class="card-body ">
         <h5 class="card-title">Charming Pets</h5>
