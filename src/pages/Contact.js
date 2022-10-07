@@ -48,12 +48,12 @@ return(
         <form ref={form} onSubmit={sendEmail}>
     <div class="mb-2">
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="Name"  name="user_name" ref={paulene} class="form-control" id="exampleFormControlInput1" />
+    <input type="Name"  name="to_name" ref={paulene} class="form-control" id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" name="user_email" ref={nicca}  class="form-control" id="exampleFormControlInput1" />
+    <input type="email" name="from_email" ref={nicca}  class="form-control" id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
