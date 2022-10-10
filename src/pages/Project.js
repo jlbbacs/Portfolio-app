@@ -5,6 +5,7 @@ import Nolimit from "../images/Nolimit1.png";
 import Kodekid from "../images/kodekid1.png";
 import Charmingpets from "../images/charmingpets1.png";
 import Weatherapp from "../images/weatherapp.png";
+import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
@@ -31,8 +32,8 @@ return(
         <h5 class="card-title">Kodekid</h5>
         <p class="card-text">Guide for Basic HTML and CSS.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted"></small>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://jlbbacs.github.io/mini-project-kode-kid/'>Demo</a></small>
       </div>
     </div>
   </div>
@@ -45,8 +46,8 @@ return(
         <h5 class="card-title">No Limit</h5>
         <p class="card-text">Fitness website with e-commerce.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted"></small>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://jlbbacs.github.io/NOLIMIT-GROUP4-PROJECT/'>Demo</a></small>
       </div>
     </div>
   </div>
@@ -57,17 +58,17 @@ return(
         <h5 class="card-title">Charming Pets</h5>
         <p class="card-text">Website for pets training manners and pet adoption.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-muted"></small>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://group-3-nickel-capstone.vercel.app/'>Demo</a></small>
       </div>
     </div>
   </div>
 </div>
 {/* ============solo card============= */}
 
-<div className='row mt-0 '>
 
 
+<div class="row row-cols-1 row-cols-md-3 g-4" >
 
 <div className='col-sm-4 '>
 <div class="card mt-5 mb-5 weather-app" data-aos="fade-down" data-aos-duration="2000">
@@ -76,12 +77,17 @@ return(
       <h5 class="card-title">JLB Weather</h5>
       <p class="card-text">Simple Weather App</p>
       <p class="card-text"><small class="text-muted"> Using API</small></p>
+      
   </div>
+    <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://bacsarsaweatherapp.vercel.app/'>Demo</a></small>
+      </div>
+  </div>
+ 
   </div>
 
 
 
-</div>
 
 
 

@@ -3,15 +3,15 @@
   padding:0;
   margin: 0 auto;
   box-sizing: border-box;
+  max-height:fit-content;
 
 }
 
 body{
   background-image: url( '../src/images/back.svg' );
+  background-repeat:no-repeat;
+  background-size: auto;
 
-  background-repeat: space;
-  background-size: contain;
- 
 
   
 }
@@ -59,3 +59,4 @@ img{
   padding: 0px;
   border: 0px;
   }
+  
