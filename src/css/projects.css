@@ -6,7 +6,6 @@
 }
 
 
-
 .card{
     box-shadow: 0 5px 6px -6px black;
 }
@@ -14,4 +13,18 @@
 #projects{
     background-image: none;
 }
+
+#group-card{
+   
+    background: rgba(255, 254, 254, 0.9);
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+.card-2{
+    background: rgba(255, 254, 254, 0.9);
+    
+
+}
+
 

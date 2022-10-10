@@ -23,7 +23,7 @@ return(
     <div className="container" id='project'>
         <h1>Projects</h1>
        
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4" id='group-card'>
   <div class="col">
     <div class="card h-100 " data-aos="fade-right" data-aos-duration="2000">
       <img src={Kodekid} class="card-img-top" alt="..."/>
@@ -65,11 +65,11 @@ return(
 </div>
 {/* ============solo card============= */}
 
-<div className='row'>
-<div className='col-sm'></div>
+<div className='row mt-0 '>
 
 
-<div className='col-sm-4'>
+
+<div className='col-sm-4 '>
 <div class="card mt-5 mb-5 weather-app" data-aos="fade-down" data-aos-duration="2000">
     <img src={Weatherapp} class="card-img-top" alt="..."/>
     <div class="card-body ">
@@ -84,7 +84,7 @@ return(
 </div>
 
 
-<div className='col-sm'></div>
+
 
 </div>
 

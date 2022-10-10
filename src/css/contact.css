@@ -31,3 +31,7 @@
     outline: none;
     box-shadow:none;
 }
+
+.group-field{
+    background-color: white;
+}

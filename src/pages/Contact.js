@@ -42,7 +42,7 @@ const Contact = () => {
 return(
     <div class="container">
         <h1>Contact Me</h1>
-    <div className="row gap-5">
+    <div className="row gap-5 group-field">
     
         <div className="col-sm">
         <form ref={form} onSubmit={sendEmail}>
