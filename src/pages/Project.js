@@ -4,6 +4,7 @@ import "../css/projects.css";
 import Nolimit from "../images/Nolimit1.png";
 import Kodekid from "../images/kodekid1.png";
 import Charmingpets from "../images/charmingpets1.png";
+import Weatherapp from "../images/weatherapp.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
@@ -18,7 +19,8 @@ const Project = () => {
  
  
 return(
-    <div className="container">
+  
+    <div className="container" id='project'>
         <h1>Projects</h1>
        
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -61,6 +63,31 @@ return(
     </div>
   </div>
 </div>
+{/* ============solo card============= */}
+
+<div className='row'>
+<div className='col-sm'></div>
+
+
+<div className='col-sm-4'>
+<div class="card mt-5 mb-5 weather-app" data-aos="fade-down" data-aos-duration="2000">
+    <img src={Weatherapp} class="card-img-top" alt="..."/>
+    <div class="card-body ">
+      <h5 class="card-title">JLB Weather</h5>
+      <p class="card-text">Simple Weather App</p>
+      <p class="card-text"><small class="text-muted"> Using API</small></p>
+  </div>
+  </div>
+
+
+
+</div>
+
+
+<div className='col-sm'></div>
+
+</div>
+
             
     </div>
 
