@@ -21,11 +21,7 @@
 
 }
 
-.card-2{
- 
-    
 
-}
 
 .card-footer  a{
     color: black;
@@ -33,12 +29,14 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-   
+   margin-left: 3rem;
+   margin-right: 3rem;
 }
 
 .card-footer  a:hover{
     color: rgb(254, 121, 5);
    
 }
+
 
 

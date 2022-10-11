@@ -34,6 +34,7 @@ return(
       </div>
       <div class="card-footer text-center">
         <small class="text-muted"><a href='https://jlbbacs.github.io/mini-project-kode-kid/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/mini-project-kode-kid'>Repo</a></small>
       </div>
     </div>
   </div>
@@ -48,6 +49,7 @@ return(
       </div>
       <div class="card-footer text-center">
         <small class="text-muted"><a href='https://jlbbacs.github.io/NOLIMIT-GROUP4-PROJECT/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/NOLIMIT-GROUP4-PROJECT'>Repo</a></small>
       </div>
     </div>
   </div>
@@ -60,10 +62,12 @@ return(
       </div>
       <div class="card-footer text-center">
         <small class="text-muted"><a href='https://group-3-nickel-capstone.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/LightLotus/group-3-nickel-capstone'>Repo</a></small>
       </div>
     </div>
   </div>
 </div>
+
 {/* ============solo card============= */}
 
 
@@ -81,6 +85,7 @@ return(
   </div>
     <div class="card-footer text-center">
         <small class="text-muted"><a href='https://bacsarsaweatherapp.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/Bacs-Weather-app'>Repo</a></small>
       </div>
   </div>
  
