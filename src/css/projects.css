@@ -16,8 +16,7 @@
 
 #group-card{
    
-  
-    margin-top: 1.5rem;
+  margin-top: 0.5rem;
 
 }
 
@@ -34,7 +33,7 @@
 }
 
 .card-footer  a:hover{
-    color: rgb(254, 121, 5);
+    color: rgb(254, 80, 5);
    
 }
 
