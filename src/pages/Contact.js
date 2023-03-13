@@ -15,9 +15,9 @@ const Contact = () => {
     }, []);
 
     const form = useRef();
-    const paulene = useRef();
-    const nicca = useRef();
-    const kevin = useRef();
+    const name = useRef();
+    const subject = useRef();
+    const message = useRef();
 
 
 
@@ -26,9 +26,9 @@ const Contact = () => {
         
         emailjs.sendForm('service_w09xyou', 'template_yrbq91h', form.current, 'ESHXTij9cdezyf77R')
           .then((result) => {
-              paulene.current.value = ""
-              kevin.current.value = ""
-              nicca.current.value = ""
+              name.current.value = ""
+              subject.current.value = ""
+              message.current.value = ""
               console.log(result.text);
               swal("Success", "Youre message has been sent!", "success");
           }, (error) => {
@@ -48,17 +48,17 @@ return(
         <form ref={form} onSubmit={sendEmail}>
     <div class="mb-2">
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="Name"  name="to_name" ref={paulene} class="form-control" id="exampleFormControlInput1" />
+    <input type="Name" required name="to_name" ref={name} class="form-control" id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" name="from_email" ref={nicca}  class="form-control" id="exampleFormControlInput1" />
+    <input type="email" required name="from_email" ref={subject}  class="form-control " id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-    <textarea class="form-control" ref={kevin}  id="Textarea" name="message" rows="3"></textarea>
+    <textarea class="form-control" required ref={message}  id="Textarea" name="message" rows="3"></textarea>
     </div>
     <button type="submit" class="btn btn-dark mt-2">Submit</button>
 
