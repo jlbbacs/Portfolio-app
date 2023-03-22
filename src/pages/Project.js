@@ -89,7 +89,9 @@ return(
 
 
   <div class="col">
-    <div class="card h-100 " data-aos="fade-down" data-aos-duration="2000">
+    <div class="card h-100 "data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <img src={ApiFetch} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">API Fetch</h5>
