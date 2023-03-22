@@ -71,7 +71,7 @@ return(
   </div>
 </div>
 
-<div class="row row-cols-1 row-cols-md-3 g-4" id='group-card'>
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id='group-card'>
   <div class="col">
     <div class="card h-100 " data-aos="fade-down" data-aos-duration="2000">
       <img src={Weatherapp} class="card-img-top" alt="..."/>
