@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import "../css/projects.css";
 import Nolimit from "../images/Nolimit1.png";
 import Kodekid from "../images/kodekid1.png";
+import ApiFetch from "../images/api-test.png";
 import Charmingpets from "../images/charmingpets1.png";
 import Weatherapp from "../images/weatherapp.png";
 import { Link } from 'react-router-dom';
@@ -38,6 +39,7 @@ return(
       </div>
     </div>
   </div>
+
   <div class="col">
     <div class="card h-100 "  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
@@ -53,6 +55,7 @@ return(
       </div>
     </div>
   </div>
+  
   <div class="col">
     <div class="card h-100 " data-aos="fade-left" data-aos-duration="2000">
       <img src={Charmingpets} class="card-img-top" alt="..."/>
@@ -68,38 +71,64 @@ return(
   </div>
 </div>
 
+<div class="row row-cols-1 row-cols-md-3 g-4" id='group-card'>
+  <div class="col">
+    <div class="card h-100 " data-aos="fade-down" data-aos-duration="2000">
+      <img src={Weatherapp} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">JLB Weather</h5>
+        <p class="card-text">Simple Weather App</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://bacsarsaweatherapp.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href= 'https://github.com/jlbbacs/Bacs-Weather-app'>Repo</a></small>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col">
+    <div class="card h-100 " data-aos="fade-down" data-aos-duration="2000">
+      <img src={ApiFetch} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">API Fetch</h5>
+        <p class="card-text">Simple api fetch with search bar</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://api-withsearchbar-test.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/react-api-search-test'>Repo</a></small>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+
+
+
+
+
+
+
 {/* ============solo card============= */}
 
 
 
-<div class="row row-cols-1 row-cols-md-3 g-4" >
 
-<div className='col-sm-4 '>
-<div class="card mt-5 mb-5 weather-app" data-aos="fade-down" data-aos-duration="2000">
-    <img src={Weatherapp} class="card-img-top" alt="..."/>
-    <div class="card-body ">
-      <h5 class="card-title">JLB Weather</h5>
-      <p class="card-text">Simple Weather App</p>
-      <p class="card-text"><small class="text-muted"> Using API</small></p>
-      
-  </div>
-    <div class="card-footer text-center">
-        <small class="text-muted"><a href='https://bacsarsaweatherapp.vercel.app/'>Demo</a></small>
-        <small class="text-muted"><a href='https://github.com/jlbbacs/Bacs-Weather-app'>Repo</a></small>
-      </div>
-  </div>
- 
-  </div>
-
-
-
-
-
-
-
-</div>
 
             
+    
     </div>
 
    
