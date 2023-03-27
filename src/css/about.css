@@ -39,5 +39,36 @@
 .about-list{
     margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 
+
+}
+
+.list{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid rgb(124, 123, 122);
+    color: rgb(0, 5, 5);
+    font-size: larger;
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.1rem;
+    box-shadow: 2px 3px 1px 0.1px rgb(102, 103, 103);
+
+   
+}
+.list:hover{
+    color: rgb(254, 255, 254);
+    background-color: rgb(251, 74, 4);
+    transition: 1s;
+    border: 2px solid white;
+    font-variation-settings: "wght" 100, "ital" 0;
+    box-shadow: none;
+    border-radius: 5px;
 }
