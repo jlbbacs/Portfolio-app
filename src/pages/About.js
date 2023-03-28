@@ -31,13 +31,13 @@ const About = () => {
          </p>
          <h5 className="text-center skills-about">SKILLS</h5>
             <ul className="about-list">
-                <li className="list">HTML</li>
-                <li className="list">CSS</li>
-                <li className="list">BOOTSTRAP</li>
-                <li className="list">JAVASCRIPT</li>
-                <li className="list">REACT</li>
-                <li className="list">GITHUB</li>
-                <li className="list">MYSQL</li>
+                <li className="list" id="ht">HTML</li>
+                <li className="list" id="cs">CSS</li>
+                <li className="list" id="bo">BOOTSTRAP</li>
+                <li className="list" id="ja">JAVASCRIPT</li>
+                <li className="list" id="re">REACT</li>
+                <li className="list" id="gi">GITHUB</li>
+                <li className="list" id="my">MYSQL</li>
             </ul>
         <p className="card-text"><small className="text-muted"></small></p>
       </div>

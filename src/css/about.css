@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Fredoka+One&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Roboto:wght@900&family=Yesteryear&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Monoton&family=Montserrat&family=Poppins:ital,wght@0,400;1,800&family=Raleway:wght@500&family=Roboto:wght@900&family=Rubik+Glitch&family=Yesteryear&display=swap');
 
 
 
@@ -9,8 +9,10 @@
 
 
 .card-text-about{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.8rem;
+    font-weight: normal;
+
     
   
 }
@@ -71,4 +73,27 @@
     font-variation-settings: "wght" 100, "ital" 0;
     box-shadow: none;
     border-radius: 5px;
+}
+
+#bo{
+    background-color: blueviolet;
+}
+#ht{
+    background-color: #0B8CD5;
+}
+#cs{
+    background-color: orangered;
+   
+}
+#ja{
+    background-color: yellow;
+}
+#gi{
+    background-color: #969798;
+}
+#my{
+    background-color: teal;
+}
+#re{
+    background-color: lightskyblue;
 }
