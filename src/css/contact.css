@@ -6,6 +6,7 @@
     width: 80px;
     height: 80px;
     margin-top: 2rem;
+   
 }
 #Textarea{
     min-height: 25vh;
@@ -34,4 +35,8 @@
 
 .group-field{
     background-color: white;
+}
+
+.download-font{
+    margin-left: 5px;
 }
