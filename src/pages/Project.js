@@ -6,11 +6,10 @@ import Kodekid from "../images/kodekid1.png";
 import ApiFetch from "../images/api-test.png";
 import Charmingpets from "../images/charmingpets1.png";
 import Weatherapp from "../images/weatherapp.png";
-import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
-
+ 
 
 
 const Project = () => {
