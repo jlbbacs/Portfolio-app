@@ -6,6 +6,7 @@ import Kodekid from "../images/kodekid1.png";
 import ApiFetch from "../images/api-test.png";
 import Charmingpets from "../images/charmingpets1.png";
 import Weatherapp from "../images/weatherapp.png";
+import Crud from "../images/crud.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init();
@@ -72,7 +73,7 @@ return(
 
 <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id='group-card'>
   <div class="col">
-    <div class="card h-100 " data-aos="fade-down" data-aos-duration="2000">
+    <div class="card h-100 " data-aos="fade-right" data-aos-duration="2000">
       <img src={Weatherapp} class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">JLB Weather</h5>
@@ -102,6 +103,24 @@ return(
       </div>
     </div>
   </div>
+
+
+  <div class="col">
+    <div class="card h-100 "data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      <img src={Crud} class="card-img-top" alt="..."/>
+      <div class="card-body">
+        <h5 class="card-title">CRUD</h5>
+        <p class="card-text">Simple CRUD operation made of PHP</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://jlbcrud.000webhostapp.com/index.php'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/crud'>Repo</a></small>
+      </div>
+    </div>
+  </div>
+
 
 
 
