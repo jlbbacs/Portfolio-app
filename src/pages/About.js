@@ -38,6 +38,7 @@ const About = () => {
                 <li className="list" id="re" data-bs-toggle="tooltip" data-bs-placement="top" title="REACT"><i class="fa-brands fa-react fa-spin-pulse fa-2xl"></i></li>
                 <li className="list" id="gi" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><i class="fa-brands fa-github fa-fade fa-2xl"></i></li>
                 <li className="list" id="my" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL">MYSQL</li>
+                <li className="list" id="ph"data-bs-toggle="tooltip" data-bs-placement="top"  title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl"></i></li>
             </ul>
         <p className="card-text"><small className="text-muted"></small></p>
       </div>
