@@ -4,6 +4,7 @@ import Mayon from "../images/mayon.png"
 import { Tabtitle } from '../components/GeneralFunctions';
 import { useEffect } from 'react';
 import AOS from "aos";
+import Photoshop from "../images/icons8-adobe-photoshop.gif";
 import "aos/dist/aos.css";
 AOS.init();
 
@@ -39,6 +40,7 @@ const About = () => {
                 <li className="list" id="gi" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><i class="fa-brands fa-github fa-fade fa-2xl"></i></li>
                 <li className="list" id="my" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL">MYSQL</li>
                 <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl"></i></li>
+                <li className="list" id="photo"data-bs-toggle="tooltip" data-bs-placement="top" title="PHOTOSHOP"><img src={Photoshop} className="img-fluid" alt="..."/></li>
             </ul>
         <p className="card-text"><small className="text-muted"></small></p>
       </div>
