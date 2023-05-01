@@ -28,8 +28,8 @@ const About = () => {
     <div className="col-md-6">
       <div className="card-body">
         <h5 className="card-title aboutname">Joseph Lester Bacsarsa</h5>
-        <p className="card-text-about">You can call me Bax that's my nickname, and I am comfortable with it. 
-         I'm an aspiring Front End Developer who loves to design websites and learn new directives.
+        <p className="card-text-about">You can call me Bax; that's my nickname, and I am comfortable with it. I'm an aspiring <span className="fw-bold">Front End Developer &nbsp;</span> 
+         who loves designing websites and learning new directives.
          </p>
          <h5 className="text-center skills-about">SKILLS</h5>
             <ul className="about-list">
@@ -40,7 +40,7 @@ const About = () => {
                 <li className="list" id="re" data-bs-toggle="tooltip" data-bs-placement="top" title="REACT"><i class="fa-brands fa-react fa-spin-pulse fa-2xl"></i></li>
                 <li className="list" id="gi" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><i class="fa-brands fa-github fa-fade fa-2xl"></i></li>
                 <li className="list" id="my" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL">MYSQL</li>
-                <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl"></i></li>
+                <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl mt-4"></i></li>
                 <li className="list" id="photo"data-bs-toggle="tooltip" data-bs-placement="top" title="PHOTOSHOP"><img src={Photoshop} className="img-fluid" alt="..."/></li>
                 <li className="list" id="fil" data-bs-toggle="tooltip" data-bs-placement="top" title="FILMORA"><img src={Filmora} alt="filmora logo"/></li>
             </ul>
