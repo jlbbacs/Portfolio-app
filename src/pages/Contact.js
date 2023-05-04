@@ -48,17 +48,17 @@ return(
         <form ref={form} onSubmit={sendEmail}>
     <div class="mb-2">
     <label for="exampleFormControlInput1" class="form-label">Name</label>
-    <input type="Name" required name="to_name" ref={name} class="form-control" id="exampleFormControlInput1" />
+    <input type="Name" required name="to_name" ref={name} class="form-control border-dark" id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
         <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" required name="from_email" ref={subject}  class="form-control " id="exampleFormControlInput1" />
+    <input type="email" required name="from_email" ref={subject}  class="form-control  border-dark" id="exampleFormControlInput1" />
     </div>
 
     <div class="mb-2">
     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-    <textarea class="form-control" required ref={message}  id="Textarea" name="message" rows="3"></textarea>
+    <textarea class="form-control  border-dark" required ref={message}  id="Textarea" name="message" rows="3"></textarea>
     </div>
     <button type="submit" class="btn btn-dark mt-2">Submit</button>
 
