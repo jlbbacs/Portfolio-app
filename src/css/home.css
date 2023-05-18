@@ -9,7 +9,7 @@
 }
 
 .hero-text{
-    margin-top: 5rem;
+    margin-top: 1rem;
     font-weight: bold;
     font-size: xx-large;
     font-family: 'Bebas Neue', cursive;
@@ -21,6 +21,7 @@
     font-size: 2rem!important;  
     background-color:#0B8CD5; 
     color: white;
+    border-radius: 5px 20px 5px;
 }
 
 .myname{
@@ -51,10 +52,11 @@
 @media (max-width: 575px){
 
 .hero-section{
-    margin-top: -2rem!important;
+    margin-top: -5rem!important;
 }
 .myname{
     font-size: 2.5rem;
+    
 }
 .carousel-item{
     margin-top: 3rem;
