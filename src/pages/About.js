@@ -20,12 +20,12 @@ const About = () => {
 
         <div className="container">
         <h1>About</h1>
-        <div className="card mb-3 border-0 mt-4" style={{maxwidth: 540}}>
+        <div className="card mb-3 border-0 mt-5" style={{maxwidth: 540}}>
   <div className="row g-0">
-    <div className="col-md-6">
+    <div className="col-sm-5">
       <img src={Mayon} className="img-fluid rounded-start" alt="..."/>
     </div>
-    <div className="col-md-6">
+    <div className="col-sm-6">
       <div className="card-body">
         <h5 className="card-title aboutname">Joseph Lester Bacsarsa</h5>
         <p className="card-text-about">You can call me Bax; that's my nickname, and I am comfortable with it. I'm an aspiring <span className="fw-bold">Front End Developer &nbsp;</span> 
