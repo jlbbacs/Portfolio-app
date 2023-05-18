@@ -12,12 +12,13 @@
     min-height: 25vh;
 }
 .list-group-item  {
-    background-color: rgb(243, 248, 252)!important;
+    background-color:cover!important;
     margin-top: 0.8rem;
     font-family: 'Poppins', sans-serif;
     box-shadow: 0 5px 5px -7px black;
-    color: #5e6062;
+    color: #010714;
     line-height: 1.7rem;
+    background-color: #0B8CD5;
    
 
 }
@@ -35,7 +36,7 @@
 }
 
 .group-field{
-    background-color: white;
+    background-color:cover;
 }
 
 .download-font{
