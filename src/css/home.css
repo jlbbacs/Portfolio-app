@@ -9,7 +9,7 @@
 }
 
 .hero-text{
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-weight: bold;
     font-size: xx-large;
     font-family: 'Bebas Neue', cursive;
@@ -21,7 +21,8 @@
     font-size: 2rem!important;  
     background-color:#0B8CD5; 
     color: white;
-    border-radius: 5px 20px 5px;
+    border: none;
+    border-radius: 40px 10px;
 }
 
 .myname{
@@ -37,12 +38,16 @@
 .Typewriter__wrapper{
     background-color: #0B8CD5!important;
     padding: 1rem;
+    border: none;
+    border-radius: 40px 10px;
    
 }
 .type{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
-
+#type-text{
+    font-size: 0.5rem!important;
+}
 
 
 
@@ -52,7 +57,7 @@
 @media (max-width: 575px){
 
 .hero-section{
-    margin-top: -5rem!important;
+    margin-top: -2rem!important;
 }
 .myname{
     font-size: 2.5rem;
@@ -64,6 +69,8 @@
 }
 
 }
+
+
 
 
 
