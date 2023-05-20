@@ -18,10 +18,10 @@ const About = () => {
 
     return(
 
-        <div className="container mb-1">
+        <div className="container">
         <h1>About</h1>
-        <div className="card border-0 mt-0" style={{maxwidth: 540}}>
-  <div className="row p-5" id="about-row">
+        <div className="card mb-3 border-0 mt-3" style={{maxwidth: 540}}>
+  <div className="row " id="about-row">
     <div className="col-sm-5">
       <img src={Mayon} className="img-fluid rounded-start" alt="..."/>
     </div>
