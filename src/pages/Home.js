@@ -18,11 +18,11 @@ const Home = ()=> {
     }, []);
     return(
 
-    <div className="container"> 
+    <div className="container mb-5 "> 
    
   
     <div className="row text-center mt-5 mb-5 hero-section" >
-        <div className="col-sm-6 hero-text"><div  className='hello'data-aos="fade-right" data-aos-duration="1000"> Hello my name is</div><div className="myname" data-aos="fade-up" data-aos-duration="1000">Joseph Lester Bacsarsa</div>
+        <div className="col-sm-6 hero-text mb-3"><div  className='hello'data-aos="fade-right" data-aos-duration="1000"> Hello my name is</div><div className="myname" data-aos="fade-up" data-aos-duration="1000">Joseph Lester Bacsarsa</div>
        
         <div className="type" data-aos="fade-left" data-aos-duration="1000" >
         <Typewriter 
@@ -37,7 +37,7 @@ const Home = ()=> {
               </div>
               </div>
 
-        <div className="col-sm-6">{<Carousel/>}</div>
+        <div className="col-sm-6 mb-3">{<Carousel/>}</div>
     </div>
 
     </div>  

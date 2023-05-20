@@ -40,7 +40,7 @@ const Contact = () => {
 
 
 return(
-    <div class="container">
+    <div class="container mb-5">
         <h1>Contact Me</h1>
     <div className="row gap-5 group-field mt-5">
     
