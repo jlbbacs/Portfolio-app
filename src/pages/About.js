@@ -28,7 +28,7 @@ const About = () => {
     <div className="col-sm-7">
       <div className="card-body">
         <h5 className="card-title aboutname">Joseph Lester Bacsarsa</h5>
-        <p className="card-text-about">You can call me Bax; that's my nickname, and I am comfortable with it. I'm an aspiring <span className="fw-bold">Front End Developer &nbsp;</span> 
+        <p className="card-text-about mt-3">You can call me Bax; that's my nickname, and I am comfortable with it. I'm an aspiring <span className="fw-bold">Front End Developer &nbsp;</span> 
          who loves designing websites and learning new directives.
          </p>
          <h5 className="text-center skills-about">EXPERIENCE</h5>
