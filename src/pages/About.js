@@ -7,6 +7,7 @@ import AOS from "aos";
 import Photoshop from "../images/icons8-adobe-photoshop.gif";
 import Filmora from "../images/icons8-filmora.svg";
 import "aos/dist/aos.css";
+import Tailwind from '../images/tailwind-css.svg'
 AOS.init();
 
 const About = () => {
@@ -43,6 +44,7 @@ const About = () => {
                 <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl mt-4"></i></li>
                 <li className="list" id="photo"data-bs-toggle="tooltip" data-bs-placement="top" title="PHOTOSHOP"><img src={Photoshop} className="img-fluid" alt="..."/></li>
                 <li className="list" id="fil" data-bs-toggle="tooltip" data-bs-placement="top" title="FILMORA"><img src={Filmora} alt="filmora logo"/></li>
+                <li className="list" id="tail" data-bs-toggle="tooltip" data-bs-placement="top" title="TAILWIND"><img src={Tailwind} className="img-fluid" alt="tailwindlogo"/></li>
             </ul>
         <p className="card-text"><small className="text-muted"></small></p>
       </div>

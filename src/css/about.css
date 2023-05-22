@@ -117,8 +117,15 @@
     background-color: aquamarine;
 }
 
+#tail{
+    background-color: rgb(252, 255, 252);
+    width:70px;
+    height:70px;
+}
+
 .about-list{
     padding-top: 1rem;
+  
 }
 
     
