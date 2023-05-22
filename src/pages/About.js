@@ -34,16 +34,16 @@ const About = () => {
          </p>
          <h5 className="text-center skills-about">EXPERIENCE</h5>
             <ul className="about-list">
-                <li className="list" id="ht" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML"><i class="fa-brands fa-html5 fa-bounce fa-2xl"></i></li>
+                <li className="list" id="ht" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML"><i class="fa-brands fa-html5 fa-html5 fa-bounce fa-2xl"></i></li>
                 <li className="list" id="cs" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS"><i class="fa-brands fa-css3-alt fa-flip fa-2xl"></i></li>
                 <li className="list" id="bo" data-bs-toggle="tooltip" data-bs-placement="top" title="BOOTSTRAP"><i class="fa-brands fa-bootstrap fa-beat-fade fa-2xl"></i></li>
                 <li className="list" id="ja" data-bs-toggle="tooltip" data-bs-placement="top" title="JAVASCRIPT"><i class="fa-brands fa-square-js fa-shake fa-2xl"></i></li>
                 <li className="list" id="re" data-bs-toggle="tooltip" data-bs-placement="top" title="REACT"><i class="fa-brands fa-react fa-spin-pulse fa-2xl"></i></li>
                 <li className="list" id="gi" data-bs-toggle="tooltip" data-bs-placement="top" title="GITHUB"><i class="fa-brands fa-github fa-fade fa-2xl"></i></li>
                 <li className="list" id="my" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL">MYSQL</li>
-                <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl mt-4"></i></li>
+                <li className="list" id="ph"data-bs-toggle="tooltip"  data-bs-placement="top" title="PHP"><i class="fa-brands fa-php fa-beat-fade fa-2xl"></i></li>
                 <li className="list" id="photo"data-bs-toggle="tooltip" data-bs-placement="top" title="PHOTOSHOP"><img src={Photoshop} className="img-fluid" alt="..."/></li>
-                <li className="list" id="fil" data-bs-toggle="tooltip" data-bs-placement="top" title="FILMORA"><img src={Filmora} alt="filmora logo"/></li>
+                <li className="list" id="fil" data-bs-toggle="tooltip" data-bs-placement="top" title="FILMORA"><img src={Filmora} className="img-fluid" alt="filmora logo"/></li>
                 <li className="list" id="tail" data-bs-toggle="tooltip" data-bs-placement="top" title="TAILWIND"><img src={Tailwind} className="img-fluid" alt="tailwindlogo"/></li>
             </ul>
         <p className="card-text"><small className="text-muted"></small></p>

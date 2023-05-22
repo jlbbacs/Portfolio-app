@@ -86,41 +86,69 @@
 }
 #ht{
     background-color: #0B8CD5;
+    width:60px;
+    height:60px;
+    text-align: center;
 }
 #cs{
     background-color: rgb(255, 94, 0);
+    width:60px;
+    height:60px;
+    text-align: center;
    
 }
 #ja{
     background-color: yellow;
+    width:60px;
+    height:60px;
+    text-align: center;
 }
 #gi{
     background-color: #969798;
+    width:60px;
+    height:60px;
+    text-align: center;
 }
 #my{
     background-color: teal;
+    
     
  
 }
 #re{
     background-color: lightskyblue;
+    width:60px;
+    height:60px;
+    text-align: center;
 }
 
 #ph{
     background-color: #807091;
+    width:60px;
+    height:60px;
+    text-align: center!important;
+   
+    
 }
+
+
+
 
 #photo{
     background-color: #042b61;
+    width:60px;
+    height:60px;
 }
 #fil{
     background-color: aquamarine;
+    width:60px;
+    height:60px;
 }
 
 #tail{
     background-color: rgb(252, 255, 252);
-    width:70px;
-    height:70px;
+    width:60px;
+    height:60px;
 }
 
 .about-list{
