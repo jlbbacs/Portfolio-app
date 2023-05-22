@@ -31,7 +31,7 @@ const About = () => {
         <p className="card-text-about">You can call me Bax; that's my nickname, and I am comfortable with it. I'm an aspiring <span className="fw-bold">Front End Developer &nbsp;</span> 
          who loves designing websites and learning new directives.
          </p>
-         <h5 className="text-center skills-about">SKILLS</h5>
+         <h5 className="text-center skills-about">EXPERIENCE</h5>
             <ul className="about-list">
                 <li className="list" id="ht" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML"><i class="fa-brands fa-html5 fa-bounce fa-2xl"></i></li>
                 <li className="list" id="cs" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS"><i class="fa-brands fa-css3-alt fa-flip fa-2xl"></i></li>
