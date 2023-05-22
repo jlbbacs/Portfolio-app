@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Link,
 
 } from "react-router-dom";
 import './App.css';
@@ -12,7 +13,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import Footer from "./components/Footer";
-
+import Links from "./components/Links";
 
 
 
@@ -30,7 +31,7 @@ const App = ()=> {
         <Route path="/project" element={<Project/>} />
 
     </Routes>
-    
+    <Links/>
     </Router>
   
   )

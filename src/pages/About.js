@@ -18,7 +18,7 @@ const About = () => {
 
     return(
 
-        <div className="container">
+        <div className="container mb-5">
         <h1>About</h1>
         <div className="card mb-3 border-0 mt-3" style={{maxwidth: 540}}>
   <div className="row " id="about-row">
