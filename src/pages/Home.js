@@ -40,7 +40,7 @@ const Home = ()=> {
               </div>
               </div>
 
-        <div className="col-sm-6 mb-3">{<Carousel/>}</div>
+        <div className="col-sm-6 mb-3 carousel-home">{<Carousel/>}</div>
     </div>
 
     </div>  
