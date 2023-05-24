@@ -41,6 +41,10 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 }
+
+
+
+
 .about-list{
     margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -83,53 +87,66 @@
     border-radius: 5px;
 }
 
+
+/* .fa-brands{
+   align-items: center!important;
+   justify-content: center!important;
+} */
+
 #bo{
     background-color: blueviolet;
+    width:70px;
+    height:70px;
   
 }
 #ht{
     background-color: #0B8CD5;
-    width:60px;
-    height:60px;
-    text-align: center;
+    width:70px;
+    height:70px;
+    
 }
 #cs{
     background-color: rgb(255, 94, 0);
-    width:60px;
-    height:60px;
-    text-align: center;
+    width:70px;
+    height:70px;
+  
    
 }
 #ja{
     background-color: yellow;
-    width:60px;
-    height:60px;
-    text-align: center;
+    width:70px;
+    height:70px;
+  
 }
 #gi{
     background-color: #969798;
-    width:60px;
-    height:60px;
-    text-align: center;
+    width:70px;
+    height:70px;
+
 }
 #my{
     background-color: teal;
+    width:70px;
+    height:70px; 
+    font-size: 17px; 
+    letter-spacing: 0.5px;
     
+   
     
  
 }
 #re{
     background-color: lightskyblue;
-    width:60px;
-    height:60px;
-    text-align: center;
+    width:70px;
+    height:70px;
+   
 }
 
 #ph{
     background-color: #807091;
-    width:60px;
-    height:60px;
-    text-align: center!important;
+    width:70px;
+    height:70px;
+  
    
     
 }
@@ -139,24 +156,29 @@
 
 #photo{
     background-color: #042b61;
-    width:60px;
-    height:60px;
+    width:70px;
+    height:70px;
 }
 #fil{
     background-color: aquamarine;
-    width:60px;
-    height:60px;
+    width:70px;
+    height:70px;
 }
 
 #tail{
     background-color: rgb(252, 255, 252);
-    width:60px;
-    height:60px;
+    width:70px;
+    height:70px;
 }
 
 .about-list{
     padding-top: 1rem;
   
+}
+ul.about-list{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
     
