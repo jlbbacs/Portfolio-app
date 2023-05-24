@@ -88,10 +88,11 @@
 }
 
 
-/* .fa-brands{
-   align-items: center!important;
-   justify-content: center!important;
-} */
+.fa-brands{
+ margin-top: 1.5rem;
+
+ 
+}
 
 #bo{
     background-color: blueviolet;
@@ -128,7 +129,7 @@
     background-color: teal;
     width:70px;
     height:70px; 
-    font-size: 17px; 
+    font-size: 22px;
     letter-spacing: 0.5px;
     
    
