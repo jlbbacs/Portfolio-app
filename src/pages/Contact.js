@@ -78,7 +78,7 @@ return(
   <li class="list-group-item d-flex justify-content-between align-items-start border-0">
     <div class="ms-2 me-auto">
       <div class="fw-bold">Address</div>
-      Pasig City
+      Cagayan de Oro City
     </div>
     <span class="badge bg-primary rounded-pill"></span>
   </li>
