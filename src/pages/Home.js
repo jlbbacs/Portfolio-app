@@ -7,11 +7,13 @@ import "../css/home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+
 AOS.init();
 
 
 
 const Home = ()=> {
+    
 
     Tabtitle('Home | JLB');
     useEffect(() => {
@@ -22,7 +24,7 @@ const Home = ()=> {
     <div className="container mb-5 " id='home-container'> 
   
   
-    <div className="row text-center mt-5 mb-5 hero-section">
+    <div className="row text-center mt-5 mb-5 hero-section"> 
         <div className="col-sm-6 hero-text mb-3">
         <div  className='hello'data-aos="fade-right" data-aos-duration="1000"> Hello my name is</div>
          <div className="myname" data-aos="fade-up" data-aos-duration="1000">Joseph Lester Bacsarsa</div>

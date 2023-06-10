@@ -16,11 +16,10 @@ import Footer from "./components/Footer";
 import Links from "./components/Links";
 
 
-
 const App = ()=> {
 
   return(
-
+    
     <Router>
 
     <Navbar/>
