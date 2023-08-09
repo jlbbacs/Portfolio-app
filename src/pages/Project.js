@@ -9,6 +9,7 @@ import Weatherapp from "../images/weatherapp.png";
 import Crud from "../images/crud.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import bmi from '../images/bmi.png';
 AOS.init();
  
 
@@ -121,6 +122,23 @@ return(
     </div>
   </div>
 
+  
+  <div class="col">
+    <div class="card h-100 "data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      <img src={bmi} class="card-img-top" alt="..."/>
+      <div class="card-body bg-secondaryr">
+        <h5 class="card-title">BMI CALCULATOR</h5>
+        <p class="card-text">Simple BMI Calculator</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://bmi-calculator-kryq1ljp3-jlbbacs.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/ionic-test'>Repo</a></small>
+      </div>
+    </div>
+  </div>
+
 
 
 
@@ -133,6 +151,7 @@ return(
 
   </div>
   
+  
 
 
 
@@ -141,7 +160,6 @@ return(
 
 
 
-{/* ============solo card============= */}
 
 
 
