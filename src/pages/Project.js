@@ -133,7 +133,7 @@ return(
         <p class="card-text">Simple BMI Calculator</p>
       </div>
       <div class="card-footer text-center">
-        <small class="text-muted"><a href='https://bmi-calculator-kryq1ljp3-jlbbacs.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://bmi-calculator-cyan.vercel.app/'>Demo</a></small>
         <small class="text-muted"><a href='https://github.com/jlbbacs/ionic-test'>Repo</a></small>
       </div>
     </div>
