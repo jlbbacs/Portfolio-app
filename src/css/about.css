@@ -156,7 +156,7 @@
 
 
 #photo{
-    background-color: #042b61;
+    background-color:  rgb(252, 252, 255);
     width:70px;
     height:70px;
 }
@@ -170,6 +170,12 @@
     background-color: rgb(252, 255, 252);
     width:70px;
     height:70px;
+}
+#fig{
+    background-color: rgb(252, 255, 252);
+    width:70px;
+    height:70px;
+
 }
 
 .about-list{
