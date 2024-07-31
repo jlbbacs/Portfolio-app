@@ -34,7 +34,7 @@ const Home = ()=> {
 
             id = "type-text"  
             options={{
-            strings: ['A Front-end Developer', 'A Web Designer'],
+            strings: ['A Problem Solver','A Front-end Developer','A Web Designer'],
             autoStart: true,
              loop: true,
               }}
