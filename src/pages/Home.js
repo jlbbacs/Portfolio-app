@@ -33,11 +33,13 @@ const Home = ()=> {
         <Typewriter 
 
             id = "type-text"  
+            className="typewriter-text"
             options={{
             strings: ['A Problem Solver','A Front-end Developer','A Web Designer'],
             autoStart: true,
              loop: true,
               }}
+            
               /> 
               </div>
               </div>
