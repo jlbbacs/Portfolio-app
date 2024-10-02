@@ -170,7 +170,7 @@ return(
         <p class="card-text">Simple To-do Applicationr</p>
       </div>
       <div class="card-footer text-center">
-        <small class="text-muted"><a href='https://vercel.com/jlbbacs-projects/to-do-app'>Demo</a></small>
+        <small class="text-muted"><a href='https://to-do-app-ochre-nu.vercel.app/'>Demo</a></small>
         <small class="text-muted"><a href='https://github.com/jlbbacs/to-do-app'>Repo</a></small>
       </div>
     </div>
