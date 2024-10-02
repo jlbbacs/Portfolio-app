@@ -10,6 +10,9 @@ import Crud from "../images/crud.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import bmi from '../images/bmi.png';
+import mern from "../images/mern.png";
+import Todoapp from '../images/todo-app.png'
+
 AOS.init();
  
 
@@ -139,8 +142,39 @@ return(
     </div>
   </div>
 
+  
+  <div class="col">
+    <div class="card h-100 "data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      <img src={mern} class="card-img-top" alt="..."/>
+      <div class="card-body bg-secondaryr">
+        <h5 class="card-title">MERN CRUD TEST</h5>
+        <p class="card-text">Simple Mern CRUD operations</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://mern-test-indol.vercel.app/'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/mern-test'>Repo</a></small>
+      </div>
+    </div>
+  </div>
 
 
+  <div class="col h-100">
+    <div class="card h-100 "data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+      <img src={Todoapp} class="card-img-top" alt="..."/>
+      <div class="card-body bg-secondaryr">
+        <h5 class="card-title">TODO APP</h5>
+        <p class="card-text">Simple To-do Applicationr</p>
+      </div>
+      <div class="card-footer text-center">
+        <small class="text-muted"><a href='https://vercel.com/jlbbacs-projects/to-do-app'>Demo</a></small>
+        <small class="text-muted"><a href='https://github.com/jlbbacs/to-do-app'>Repo</a></small>
+      </div>
+    </div>
+  </div>
 
 
 
