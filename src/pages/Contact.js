@@ -24,7 +24,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         
-        emailjs.sendForm('service_w09xyou', 'template_yrbq91h', form.current, 'ESHXTij9cdezyf77R')
+        emailjs.sendForm('service_w09xyou', 'template_9oqwaen', form.current, 'ESHXTij9cdezyf77R')
           .then((result) => {
               name.current.value = ""
               subject.current.value = ""
