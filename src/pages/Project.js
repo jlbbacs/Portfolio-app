@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 import bmi from "../images/bmi.png";
 import mern from "../images/mern.png";
 import Todoapp from "../images/todo-app.png";
-import Qregistration from '../images/bqr.png';
+import Qregistration from "../images/bqr.png";
 
 AOS.init();
 
@@ -223,7 +223,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-         <div class="col">
+        <div class="col">
           <div
             class="card h-100 "
             data-aos="flip-left"
@@ -231,20 +231,19 @@ const Project = () => {
             data-aos-duration="2000"
           >
             <img src={Qregistration} class="card-img-top" alt="..." />
-            <div class="card-body">Quick-Registrtion-form
-              <h5 class="card-title"></h5>
-              <p class="card-text">Simple online registration app then export to pdf</p>
+
+            <div class="card-body">
+              <h5 class="card-title">Quick-Registrtion-form</h5>
+              <p class="card-text">
+                Simple online registration app then export to PDF file
+              </p>
             </div>
             <div class="card-footer text-center">
               <small class="text-muted">
-                <a href="https://quick-registration-seven.vercel.app/">
-                  Demo
-                </a>
+                <a href="https://quick-registration-seven.vercel.app/">Demo</a>
               </small>
               <small class="text-muted">
-                <a href="https://github.com/jlbbacs/quick-registration">
-                  Repo
-                </a>
+                <a href="https://github.com/jlbbacs/quick-registration">Repo</a>
               </small>
             </div>
           </div>
@@ -274,8 +273,6 @@ const Project = () => {
         </div>
       </div>
     </div>
-
-    
   );
 };
 
