@@ -13,6 +13,7 @@ import bmi from "../images/bmi.png";
 import mern from "../images/mern.png";
 import Todoapp from "../images/todo-app.png";
 import Qregistration from "../images/bqr.png";
+import ErzaWeatherAppPic from '../images/erza-weather-app.png';
 
 AOS.init();
 
@@ -178,6 +179,30 @@ const Project = () => {
           </div>
         </div>
 
+
+         <div class="col">
+          <div
+            class="card h-100 "
+            data-aos="fade-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img src={ErzaWeatherAppPic} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">ERZA'S WEATHER APP</h5>
+              <p class="card-text">WEATHER FORCAST APPLICATION</p>
+            </div>
+            <div class="card-footer text-center">
+              <small class="text-muted">
+                <a href="https://erza-weather-app.vercel.app/">Demo</a>
+              </small>
+              <small class="text-muted">
+                <a href="https://github.com/jlbbacs/weather-app-erza">Repo</a>
+              </small>
+            </div>
+          </div>
+        </div>
+
         <div class="col">
           <div
             class="card h-100 "
@@ -200,6 +225,11 @@ const Project = () => {
             </div>
           </div>
         </div>
+
+    
+    
+
+
 
         <div class="col">
           <div
@@ -273,6 +303,7 @@ const Project = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
